@@ -13,6 +13,5 @@ namespace DAL
         public T GetById(int id);
         public bool Update(T entity);
         public bool Delete(int id);
-
     }
 }
