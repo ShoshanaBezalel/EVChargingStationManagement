@@ -10,7 +10,7 @@ namespace DAL
     internal interface IRepository<T>
     {
         public bool Create(T entity);
-        public T GetById(int id);
+        public T GetById(int obgjId);
         public bool Update(T entity);
         public bool Delete(int id);
     }
